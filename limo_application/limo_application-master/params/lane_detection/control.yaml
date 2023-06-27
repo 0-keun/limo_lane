@@ -1,0 +1,9 @@
+# params/control.yaml
+# Common parameters for control
+---
+
+# Dynamic parameters cannot have a namespace
+base_speed:       0.3
+lateral_gain:     6 #[rev]: lateral_gain:     5
+reference_lane_x: 170 #[rev]: reference_lane_x: 80 ideal: 170
+pedestrian_width_min: 55
